@@ -5,20 +5,6 @@ Funcionalidades
 ✅ Download: Baixa os arquivos PDF e os salva na pasta downloads.
 ✅ Compacta os arquivos PDF baixados em um .zip e remove os arquivos temporários.
 
-Estrutura do Projeto
-
-│-- downloads/               # Pasta onde os arquivos zip são armazenados (caso não exista, ele criará sozinho)
-│-- src/                     # Código-fonte do projeto
-│   ├── main.py              # Arquivo principal para executar o script
-│   ├── scraper.py           # Coleta os links dos PDFs
-│   ├── downloader.py        # Baixa os PDFs
-│   ├── compressor.py        # Compacta os PDFs baixados
-│-- requirements.txt         # Dependências do projeto
-│-- .gitignore               # Define arquivos ignorados pelo Git
-│-- README.md                # Documentação do projeto
-│-- LICENSE                  # Licença do projeto
-
-
 Como Rodar o Projeto?
 
 Clone o repositório:
